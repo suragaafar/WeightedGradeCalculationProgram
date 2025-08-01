@@ -18,18 +18,37 @@ This C program allows users to calculate final grades for students based on weig
 
 ## 💻 How to Compile and Run
 
-1. **Compile the program:**
+You can run this program on any system with a C compiler, either through the terminal or a code editor like **Visual Studio Code**.
 
-```bash
-gcc suragaafar_assignment2.c -o grade_calculator -lm
-```
+### 🔧 Requirements
 
-2. **Run the program:**
+- A C compiler such as **GCC** (recommended)
+- (Optional) **Visual Studio Code** with the [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 
-```bash
-./grade_calculator
-```
+### 🗂️ Steps
 
+1. **Download the source code**:
+   - Clone this repository using:
+     ```bash
+     git clone https://github.com/suragaafar/WeightedGradeCalculationProgram
+     ```
+   - Or download the `.c` file manually.
+
+2. **Open your terminal** and navigate to the project folder:
+   ```bash
+   cd path/to/project
+   ```
+   
+3. **Compile the program using GCC:**
+  ```bash
+  gcc suragaafar_assignment2.c -o grade_calculator -lm
+  ```
+
+4.  **Run the program:**
+   ```bash
+   ./grade_calculator
+   ```
+   
 ---
 
 ## 🧠 What I Learned
